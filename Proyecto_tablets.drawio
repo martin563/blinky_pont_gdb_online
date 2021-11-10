@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-10T17:52:30.996Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="UMbQcC9-IX3sjIVE5y2D" version="15.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-10T17:54:36.688Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="ewunwKzuFhU_9PKJQU5e" version="15.7.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1021" dy="2905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -249,6 +249,15 @@
         </mxCell>
         <mxCell id="HYYa3hcysCOjEyR11MOB-20" value="Se pasa a la pantalla de interrupción donde se abre la OP de interrupción seleccionada y se muestra el tiempo actual de la misma" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;glass=0;strokeWidth=1;shadow=0;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="312.5" y="-520" width="147.5" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="HYYa3hcysCOjEyR11MOB-22" value="Cuando se presiona el botón de finalizar , se cierra la OP y se vuelve a la pantalla de inicio" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;glass=0;strokeWidth=1;shadow=0;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="312.5" y="-240" width="147.5" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="HYYa3hcysCOjEyR11MOB-23" value="" style="endArrow=classic;html=1;rounded=0;fontSize=18;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HYYa3hcysCOjEyR11MOB-20" target="HYYa3hcysCOjEyR11MOB-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="-230" as="sourcePoint" />
+            <mxPoint x="350" y="-280" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
