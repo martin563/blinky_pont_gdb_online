@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-10T17:33:38.102Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="fQptPrOKih3AEp3zTXi3" version="15.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-10T17:39:03.813Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="szTD866VKG4F0bj_gqaD" version="15.7.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1021" dy="1736" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-2" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-3" target="WIyWlLk6GJQsqaUBKTNV-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="Pantalla de Inicio de la aplicación&lt;br style=&quot;font-size: 18px&quot;&gt;Se debe ingresar legajo, Nº de OP y el tipo de operación para abrir una OP" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;glass=0;strokeWidth=1;shadow=0;fontStyle=1" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="Para abrir una OP&lt;br style=&quot;font-size: 18px&quot;&gt;se debe ingresar legajo, Nº de OP y el tipo de operación" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;glass=0;strokeWidth=1;shadow=0;fontStyle=1" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="612.5" y="-530" width="175" height="170" as="geometry" />
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-5" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=18;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;fontStyle=1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-6" target="WIyWlLk6GJQsqaUBKTNV-7" edge="1">
@@ -173,12 +173,30 @@
         <mxCell id="JvSJvUOATyo0fjj9ybYs-41" value="" style="endArrow=classic;html=1;rounded=0;fontSize=18;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="570" y="-360" as="sourcePoint" />
-            <mxPoint x="440" y="-445" as="targetPoint" />
-            <Array as="points" />
+            <mxPoint x="910" y="-445" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="910" y="-445" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="JvSJvUOATyo0fjj9ybYs-42" value="Si se quiere cambiar de máquina, hay que apretar el botón con el nombre de la actual, se pasa a otra pantalla para ingresar usuario y contraseña para luego seleccionar la nueva máquina" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;glass=0;strokeWidth=1;shadow=0;fontStyle=1" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="262.5" y="-584" width="175" height="250" as="geometry" />
+          <mxGeometry x="912.5" y="-620" width="175" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="HYYa3hcysCOjEyR11MOB-0" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HYYa3hcysCOjEyR11MOB-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="-360" as="sourcePoint" />
+            <mxPoint x="470" y="-705" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HYYa3hcysCOjEyR11MOB-1" value="Punto de partida:&lt;br&gt;Pantalla Inicio de la aplicación" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;glass=0;strokeWidth=1;shadow=0;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="612.5" y="-790" width="175" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="HYYa3hcysCOjEyR11MOB-2" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HYYa3hcysCOjEyR11MOB-1" target="WIyWlLk6GJQsqaUBKTNV-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="-610" as="sourcePoint" />
+            <mxPoint x="730" y="-660" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
